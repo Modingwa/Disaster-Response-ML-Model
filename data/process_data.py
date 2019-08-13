@@ -63,6 +63,11 @@ def clean_data(df):
     # drop duplicates
     df = df.drop_duplicates()
 
+    # filter out null values in related columns
+    df = df[pd.notnull(df.related)]
+
+    # remove all rows where related equals 2
+    df = df[df.related != 2]
     return df
 
 
@@ -81,7 +86,7 @@ def save_data(df, database_filename):
     None
     """
     engine = create_engine('sqlite:///{}'.format(database_filename))
-    df.to_sql('messages', engine, index=False)
+    df.to_sql('messages', engine, index=False, if_exists='replace')
 
 def main():
     """Main function to run the ETL pipeline
