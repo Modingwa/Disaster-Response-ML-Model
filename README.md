@@ -6,7 +6,7 @@ The motivation behind this machine learning project is to build a web applicatio
 * [Data and Code](#data-and-code)
 * [Screenshots of the Flask web app](#screenshots-of-the-flask-web-app)
 * [Prerequisites](#prerequisites)
-* [Instructions on running the application](#nstructions-on-running-the-application)
+* [Instructions on running the application](#instructions-on-running-the-application)
 
 ## Data and Code
 * The ETL data pipeline code is contained in the data/process_data.py file. This pipeline reads the dataset, cleans the data, and then stores the cleaned data in a SQLite database. 
