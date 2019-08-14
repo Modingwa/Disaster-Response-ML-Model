@@ -3,14 +3,10 @@
 The motivation behind this machine learning project is to build a web application that classifies text messages received in the event of a disaster such as during storms or earthquakes. The web application can be used by emergency workers to classify messages, and this could be essential for effective allocation of resources. The output of the ML model is a classification of the message into several categories such as water, shelter, food and clothing. Such a classification would give the app user a better awareness on what kind of help/aid is needed in case of emergency.
 
 ## Table of contents
-* [General File info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Data and Code](#Data and Code)
+* [Screenshots of the Flask web app](#Screenshots of the Flask web app)
+* [Prerequisites](#Prerequisites)
+* [Instructions on running the application](#Instructions on running the application)
 
 ## Data and Code
 * The ETL data pipeline code is contained in the data/process_data.py file. This pipeline reads the dataset, cleans the data, and then stores the cleaned data in a SQLite database. 
