@@ -19,7 +19,7 @@ The motivation behind this machine learning project is to build a web applicatio
 ![Social Genre Top 5 lables](./images/social_top.png)
 ![News Genre Top 5 lables](./images/news_top.png)
 ![Direct Genre Top 5 lables](./images/direct_top.png)
-![Message form](./images/enter_message.png)
+![Message form](./images/enter_message.jpg)
 ![Classification results](./images/class_results.png)
 
 ## Prerequisites
